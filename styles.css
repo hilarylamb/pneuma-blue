@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --accent: #ea918d;
+  --accentHover: #de8a86;
+  --dark: #304659;
+  --dark80: rgba(48, 70, 89, 0.8);
+  --dark60: rgba(48, 70, 89, 0.6);
+  --light: #f5f9fc;
+  --transition: all 0.3s ease 0s;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  max-height: 100%;
+  overflow: auto;
+  background: linear-gradient(var(--dark60), var(--dark60)),
+    url(./images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: minmax(60px, 1fr) repeat(6, minmax(1fr, 190px)) minmax(
+      60px,
+      1fr
+    );
+  grid-template-rows: 120px 1fr;
+}
