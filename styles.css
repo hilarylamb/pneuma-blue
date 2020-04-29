@@ -205,3 +205,25 @@ main {
     grid-column: 1 / span 8;
   }
 }
+
+@media only screen and (max-width: 650px) {
+  nav .links {
+    display: none;
+  }
+
+  .info {
+    grid-column: 2 / span 6;
+  }
+
+  .icons {
+    flex-direction: column;
+  }
+
+  .icon {
+    margin-bottom: 20px;
+  }
+
+  .feature {
+    flex-direction: column;
+  }
+}
