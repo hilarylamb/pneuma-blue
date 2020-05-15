@@ -22,7 +22,7 @@ body {
   max-height: 100%;
   overflow: auto;
   background: linear-gradient(var(--dark60), var(--dark60)),
-    url(./images/background.jpg);
+    url(./images/hands.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
