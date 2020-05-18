@@ -54,6 +54,10 @@ header {
   grid-template-columns: repeat(8, 1fr);
 }
 
+.logo {
+  width: 50%;
+}
+
 nav {
   grid-column: 2 / span 6;
   display: flex;
